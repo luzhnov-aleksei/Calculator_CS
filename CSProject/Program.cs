@@ -4,8 +4,6 @@ namespace CSProject
 {
     class Program
     {
-
-
         static void Main()
         {
             int number1;
@@ -41,11 +39,6 @@ namespace CSProject
                 Operation(number1, action, number2);
 
             }
-
-
-
-
-
         }
 
         static void Operation(int number1, string action, double number2 )
@@ -83,8 +76,6 @@ namespace CSProject
                     Console.WriteLine("Неизвестная операция");
                     break;
             }
-
-
         }
     }
 }
